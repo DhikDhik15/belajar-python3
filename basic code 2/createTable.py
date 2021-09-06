@@ -11,6 +11,7 @@ cursor.execute("DROP TABLE IF EXISTS EMPLOYEE")
 
 # Create table as per requirement
 sql = """CREATE TABLE EMPLOYEE (
+   ID INTEGER(2) NOT NULL,
    FIRST_NAME  CHAR(20) NOT NULL,
    LAST_NAME  CHAR(20),
    AGE INT,
